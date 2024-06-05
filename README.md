@@ -1,3 +1,13 @@
+# Interface Mensageiro
+
+<?php
+namespace App\Src;
+
+interface IMensageiro {
+    public function enviar(string $mensagem): bool;
+   }
+
+
 # index.php
 ```php
 <?php
